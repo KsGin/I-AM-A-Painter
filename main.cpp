@@ -5,12 +5,17 @@
  */
 
 #include "StraightLine.h"
+#include "Circle.h"
+#include "CoordinateAxis.h"
 
 int main() {
     Device device;
     device.initialize(800, 600, false);
 
-    StraightLine::DrawStraightLine(device);
+    CoordinateAxis::DrawCoordinateAxis(device , 800 , 600);
+
+//    StraightLine::DrawStraightLine(device);
+    Circle::DrawCircle(device);
 
     device.updateRender();
     device.show();
