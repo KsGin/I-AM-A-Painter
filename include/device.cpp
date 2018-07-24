@@ -37,7 +37,7 @@ bool Device::initialize(int width, int height, bool isScreenFull) {
         windowAttr |= SDL_WINDOW_FULLSCREEN_DESKTOP;
     }
 
-    this->window = SDL_CreateWindow("Ray Tracer", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
+    this->window = SDL_CreateWindow("painter", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
                                     this->width, this->height, windowAttr);
     if (!window) {
         return false;
@@ -58,7 +58,7 @@ bool Device::initialize(int width, int height, bool isScreenFull) {
         return false;
     }
 
-    this->texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA32, SDL_TEXTUREACCESS_STREAMING, this->width,
+    this->texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_STREAMING, this->width,
                                       this->height);
     if (!texture) {
         return -1;

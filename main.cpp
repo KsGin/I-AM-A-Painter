@@ -8,11 +8,14 @@
 #include "Circle.h"
 #include "CoordinateAxis.h"
 
+const int screenWidth = 800;
+const int screenHeight = 600;
+
 int main() {
     Device device;
-    device.initialize(800, 600, false);
+    device.initialize(screenWidth, screenHeight, false);
 
-    CoordinateAxis::DrawCoordinateAxis(device , 800 , 600);
+    CoordinateAxis::DrawCoordinateAxis(device , screenWidth , screenHeight);
 
 //    StraightLine::DrawStraightLine(device);
     Circle::DrawCircle(device);

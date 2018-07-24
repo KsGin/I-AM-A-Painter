@@ -6,4 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 add_executable(I_AM_A_Painter include/color.cpp include/color.h include/device.cpp include/device.h
         StraightLine.h main.cpp Circle.h CoordinateAxis.h)
 
-target_link_libraries(I_AM_A_Painter /usr/local/Cellar/sdl2/2.0.8/lib/libSDL2.dylib)
+INCLUDE(FindPkgConfig)
+PKG_SEARCH_MODULE(SDL2 REQUIRED sdl2)
+INCLUDE_DIRECTORIES(${SDL2_INCLUDE_DIRS} ${SDL2IMAGE_INCLUDE_DIR})
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${SDL2_LIBRARIES} ${SDL2IMAGE_LIBRARY})
