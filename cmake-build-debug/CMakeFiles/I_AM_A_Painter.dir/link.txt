@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/I_AM_A_Painter.dir/include/color.cpp.o CMakeFiles/I_AM_A_Painter.dir/include/device.cpp.o CMakeFiles/I_AM_A_Painter.dir/main.cpp.o  -o I_AM_A_Painter -lSDL2 

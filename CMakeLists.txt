@@ -4,7 +4,7 @@ project(I_AM_A_Painter)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(I_AM_A_Painter include/color.cpp include/color.h include/device.cpp include/device.h
-        StraightLine.h main.cpp Circle.h CoordinateAxis.h)
+        StraightLine.h main.cpp Circle.h CoordinateAxis.h QuadraticCruve.h)
 
 INCLUDE(FindPkgConfig)
 PKG_SEARCH_MODULE(SDL2 REQUIRED sdl2)

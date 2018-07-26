@@ -7,6 +7,7 @@
 #include "StraightLine.h"
 #include "Circle.h"
 #include "CoordinateAxis.h"
+#include "QuadraticCruve.h"
 
 const int screenWidth = 800;
 const int screenHeight = 600;
@@ -18,7 +19,8 @@ int main() {
     CoordinateAxis::DrawCoordinateAxis(device , screenWidth , screenHeight);
 
 //    StraightLine::DrawStraightLine(device);
-    Circle::DrawCircle(device);
+//    Circle::DrawCircle(device);
+    QuadraticCruve::DrawQuadraticCruve(device);
 
     device.updateRender();
     device.show();
