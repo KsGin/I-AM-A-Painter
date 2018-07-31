@@ -4,10 +4,10 @@
  * Date   : 2018/7/20
  */
 
-#include "StraightLine.h"
-#include "Circle.h"
-#include "CoordinateAxis.h"
-#include "QuadraticCruve.h"
+#include "basic-graphics/StraightLine.h"
+#include "basic-graphics/Circle.h"
+#include "basic-graphics/CoordinateAxis.h"
+#include "basic-graphics/QuadraticCruve.h"
 
 const int screenWidth = 800;
 const int screenHeight = 600;

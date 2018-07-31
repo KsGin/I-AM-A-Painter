@@ -7,7 +7,7 @@
 #ifndef I_AM_A_PAINTER_COORDINATEAXIS_H
 #define I_AM_A_PAINTER_COORDINATEAXIS_H
 
-#include "./include/device.h"
+#include "../include/device.h"
 
 class CoordinateAxis {
 public:

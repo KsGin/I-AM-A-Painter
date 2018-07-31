@@ -7,7 +7,7 @@
 #ifndef I_AM_A_PAINTER_STRAIGHTLINE_H
 #define I_AM_A_PAINTER_STRAIGHTLINE_H
 
-#include "include/device.h"
+#include "../include/device.h"
 
 class StraightLine {
 public:

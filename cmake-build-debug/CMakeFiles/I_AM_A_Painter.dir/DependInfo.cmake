@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/KsGin/Documents/I-AM-A-Painter/include/color.cpp" "/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/CMakeFiles/I_AM_A_Painter.dir/include/color.cpp.o"
-  "/Users/KsGin/Documents/I-AM-A-Painter/include/device.cpp" "/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/CMakeFiles/I_AM_A_Painter.dir/include/device.cpp.o"
-  "/Users/KsGin/Documents/I-AM-A-Painter/main.cpp" "/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/CMakeFiles/I_AM_A_Painter.dir/main.cpp.o"
+  "/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/include/color.cpp" "/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/CMakeFiles/I_AM_A_Painter.dir/include/color.cpp.o"
+  "/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/include/device.cpp" "/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/CMakeFiles/I_AM_A_Painter.dir/include/device.cpp.o"
+  "/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/main.cpp" "/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/CMakeFiles/I_AM_A_Painter.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include/SDL2"
+  "/usr/include/SDL2"
   )
 
 # Targets to which this target links.

@@ -8,110 +8,115 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug"/>
+				<Option working_dir="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug"/>
+				<Option working_dir="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug"/>
+				<Option working_dir="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="I_AM_A_Painter">
-				<Option output="/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/I_AM_A_Painter" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug"/>
+				<Option output="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/I_AM_A_Painter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/SDL2"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 I_AM_A_Painter"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 I_AM_A_Painter"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="I_AM_A_Painter/fast">
-				<Option output="/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/I_AM_A_Painter" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug"/>
+				<Option output="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/I_AM_A_Painter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/SDL2"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 I_AM_A_Painter/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 I_AM_A_Painter/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/KsGin/Documents/I-AM-A-Painter/Circle.h">
+		<Unit filename="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/basic-graphics/Circle.h">
 			<Option target="I_AM_A_Painter"/>
 		</Unit>
-		<Unit filename="/Users/KsGin/Documents/I-AM-A-Painter/CoordinateAxis.h">
+		<Unit filename="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/basic-graphics/CoordinateAxis.h">
 			<Option target="I_AM_A_Painter"/>
 		</Unit>
-		<Unit filename="/Users/KsGin/Documents/I-AM-A-Painter/QuadraticCruve.h">
+		<Unit filename="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/basic-graphics/QuadraticCruve.h">
 			<Option target="I_AM_A_Painter"/>
 		</Unit>
-		<Unit filename="/Users/KsGin/Documents/I-AM-A-Painter/StraightLine.h">
+		<Unit filename="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/basic-graphics/StraightLine.h">
 			<Option target="I_AM_A_Painter"/>
 		</Unit>
-		<Unit filename="/Users/KsGin/Documents/I-AM-A-Painter/include/color.cpp">
+		<Unit filename="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/fractal-graphics/HilbertCurve.h">
 			<Option target="I_AM_A_Painter"/>
 		</Unit>
-		<Unit filename="/Users/KsGin/Documents/I-AM-A-Painter/include/color.h">
+		<Unit filename="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/include/color.cpp">
 			<Option target="I_AM_A_Painter"/>
 		</Unit>
-		<Unit filename="/Users/KsGin/Documents/I-AM-A-Painter/include/device.cpp">
+		<Unit filename="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/include/color.h">
 			<Option target="I_AM_A_Painter"/>
 		</Unit>
-		<Unit filename="/Users/KsGin/Documents/I-AM-A-Painter/include/device.h">
+		<Unit filename="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/include/device.cpp">
 			<Option target="I_AM_A_Painter"/>
 		</Unit>
-		<Unit filename="/Users/KsGin/Documents/I-AM-A-Painter/main.cpp">
+		<Unit filename="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/include/device.h">
 			<Option target="I_AM_A_Painter"/>
 		</Unit>
-		<Unit filename="/Users/KsGin/Documents/I-AM-A-Painter/CMakeLists.txt">
+		<Unit filename="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/main.cpp">
+			<Option target="I_AM_A_Painter"/>
+		</Unit>
+		<Unit filename="/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

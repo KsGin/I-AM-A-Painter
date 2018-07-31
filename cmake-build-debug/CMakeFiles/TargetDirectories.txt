@@ -1,3 +1,3 @@
-/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/KsGin/Documents/I-AM-A-Painter/cmake-build-debug/CMakeFiles/I_AM_A_Painter.dir
+/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/cmake-build-debug/CMakeFiles/I_AM_A_Painter.dir
