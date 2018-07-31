@@ -73,9 +73,16 @@ void Device::show() {
 }
 
 void Device::destory() {
-    SDL_DestroyTexture(texture);
-    SDL_DestroyRenderer(renderer);
-    SDL_DestroyWindow(window);
+    if (texture) {
+        SDL_DestroyTexture(texture);
+    }
+    if (renderer) {
+        SDL_DestroyRenderer(renderer);
+    }
+    if (window) {
+        SDL_DestroyWindow(window);
+    }
+
     SDL_Quit();
 }
 
@@ -136,6 +143,42 @@ float Device::clamp(const float &value, const float &maxValue, const float &minV
     float ret = value > minValue ? value : minValue;
     return ret < maxValue ? ret : maxValue;
 }
+
+void Device::clamp(int &x, int &y) {
+    x = static_cast<int>(clamp(x , width - 5 , 5));
+    y = static_cast<int>(clamp(y , height - 5 , 5));
+}
+
+Device::Device(const Device &device) {
+    this->event = device.event;
+    this->height = device.height;
+    this->width = device.width;
+    this->window = device.window;
+    this->renderer = device.renderer;
+    this->texture = device.texture;
+    this->pixels = device.pixels;
+    this->isQuit = device.isQuit;
+    this->isScreenFull = device.isScreenFull;
+}
+
+Device &Device::operator=(Device &device) {
+    return device;
+}
+
+Device &Device::operator=(const Device &device) {
+    this->event = device.event;
+    this->height = device.height;
+    this->width = device.width;
+    this->window = device.window;
+    this->renderer = device.renderer;
+    this->texture = device.texture;
+    this->pixels = device.pixels;
+    this->isQuit = device.isQuit;
+    this->isScreenFull = device.isScreenFull;
+    return *this;
+}
+
+
 
 
 

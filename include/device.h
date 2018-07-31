@@ -65,6 +65,21 @@ public:
     ~Device();
 
     /*
+     * 拷贝方法
+     */
+    Device(const Device &device);
+
+    /**
+     * 重载 =
+     */
+    Device &operator=(Device &device);
+
+    /**
+     * 重载 =
+     */
+    Device &operator=(const Device &device);
+
+    /*
      * 初始化设备
      */
     bool initialize(int width, int height, bool isScreenFull);
@@ -119,10 +134,15 @@ public:
      */
     void handleEvent();
 
+    /**
+     * 像素数值限制
+     */
+    void clamp(int& x , int& y);
     /*
      * 数值限制
      */
     static float clamp(const float &value, const float &maxValue = 1, const float &minValue = 0);
+
 };
 
 
