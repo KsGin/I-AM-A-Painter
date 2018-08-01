@@ -10,6 +10,7 @@
 #include "basic-graphics/CoordinateAxis.h"
 #include "basic-graphics/QuadraticCruve.h"
 #include "fractal-graphics/Turtle.hpp"
+#include "fractal-graphics/Pentagram.h"
 
 const int screenWidth = 800;
 const int screenHeight = 600;
@@ -18,25 +19,9 @@ int main() {
     Device *device = new Device();
     device->initialize(screenWidth, screenHeight, false);
 
-    Turtle turtle = Turtle(screenWidth / 2, screenHeight / 2, 0 , device);
+    Turtle turtle = Turtle(device);
 
-    turtle.Forward(50);
-    turtle.Right(90);
-    turtle.Forward(50);
-    turtle.Right(90);
-    turtle.Forward(50);
-    turtle.Right(90);
-    turtle.Forward(50);
-
-    turtle.Goto(100 , 100);
-
-    turtle.Forward(50);
-    turtle.Right(90);
-    turtle.Forward(50);
-    turtle.Right(90);
-    turtle.Forward(50);
-    turtle.Right(90);
-    turtle.Forward(50);
+    Pentagram::Draw(turtle);
 
     device->updateRender();
     device->show();

@@ -45,7 +45,7 @@ public:
     /**
      * 带参构造方法
      */
-    Turtle(const int &x, const int &y , const float &angle , Device *device) {
+    Turtle(const int &x, const int &y, const float &angle, Device *device) {
         this->cx = x;
         this->cy = y;
         this->angle = angle;
@@ -55,7 +55,7 @@ public:
     /**
      * GO TO 方法（定位画笔
      */
-    void Goto(const int &nx , const int &ny){
+    void Goto(const int &nx, const int &ny) {
         cx = nx;
         cy = ny;
     }
@@ -66,12 +66,14 @@ public:
     void Forward(int distance) {
         if (distance <= 0) return;
         double radians = M_PI / 180 * angle;
+        int fx = cx, fy = cy;
         for (int i = 0; i <= distance; ++i) {
-            this->cx += cos(radians);
-            this->cy += sin(radians);
-            this->device->clamp(cx , cy);
-            this->device->setPixelColor(cx , cy , Color::white());
+            fx = static_cast<int>(this->cx + cos(radians) * i);
+            fy = static_cast<int>(this->cy + sin(radians) * i);
+            this->device->clamp(fx, fy);
+            this->device->setPixelColor(fx, fy, Color::white());
         }
+        this->Goto(fx , fy);
     }
 
     /**
@@ -80,12 +82,14 @@ public:
     void Backward(int distance) {
         if (distance <= 0) return;
         double radians = M_PI / 180 * angle;
+        int fx = cx, fy = cy;
         for (int i = 0; i <= distance; ++i) {
-            this->cx -= cos(radians);
-            this->cy -= sin(radians);
-            this->device->clamp(cx , cy);
-            this->device->setPixelColor(cx , cy , Color::white());
+            fx = static_cast<int>(this->cx - cos(radians) * i);
+            fy = static_cast<int>(this->cy - sin(radians) * i);
+            this->device->clamp(fx, fy);
+            this->device->setPixelColor(fx, fy, Color::white());
         }
+        this->Goto(fx , fy);
     }
 
     /**
@@ -93,6 +97,9 @@ public:
      */
     void Left(int angle) {
         this->angle -= angle;
+        if (this->angle <= 0) {
+            this->angle += 360;
+        }
     }
 
     /**
@@ -100,6 +107,9 @@ public:
      */
     void Right(int angle) {
         this->angle += angle;
+        if (this->angle >= 360) {
+            this->angle -= 360;
+        }
     }
 
 };

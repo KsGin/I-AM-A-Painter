@@ -22,6 +22,10 @@
 ../include/device.h
 /home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/include/device.h
 
+/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/fractal-graphics/Pentagram.h
+Turtle.hpp
+/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/fractal-graphics/Turtle.hpp
+
 /home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/fractal-graphics/Turtle.hpp
 algorithm
 -
@@ -51,4 +55,6 @@ basic-graphics/QuadraticCruve.h
 /home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/basic-graphics/QuadraticCruve.h
 fractal-graphics/Turtle.hpp
 /home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/fractal-graphics/Turtle.hpp
+fractal-graphics/Pentagram.h
+/home/ksgin/Documents/WorkSpace/ClionProjects/I-AM-A-Painter.git/fractal-graphics/Pentagram.h
 
