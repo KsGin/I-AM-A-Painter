@@ -68,8 +68,8 @@ public:
         double radians = M_PI / 180 * angle;
         int fx = cx, fy = cy;
         for (int i = 0; i <= distance; ++i) {
-            fx = static_cast<int>(this->cx + cos(radians) * i);
-            fy = static_cast<int>(this->cy + sin(radians) * i);
+            fx = static_cast<int>(this->cx + cos(radians) * i + 0.5);
+            fy = static_cast<int>(this->cy + sin(radians) * i + 0.5);
             this->device->clamp(fx, fy);
             this->device->setPixelColor(fx, fy, Color::white());
         }
@@ -84,8 +84,8 @@ public:
         double radians = M_PI / 180 * angle;
         int fx = cx, fy = cy;
         for (int i = 0; i <= distance; ++i) {
-            fx = static_cast<int>(this->cx - cos(radians) * i);
-            fy = static_cast<int>(this->cy - sin(radians) * i);
+            fx = static_cast<int>(this->cx - cos(radians) * i + 0.5);
+            fy = static_cast<int>(this->cy - sin(radians) * i + 0.5);
             this->device->clamp(fx, fy);
             this->device->setPixelColor(fx, fy, Color::white());
         }

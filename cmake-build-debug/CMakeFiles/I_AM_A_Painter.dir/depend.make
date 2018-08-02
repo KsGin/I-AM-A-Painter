@@ -12,6 +12,7 @@ CMakeFiles/I_AM_A_Painter.dir/main.cpp.o: ../basic-graphics/Circle.h
 CMakeFiles/I_AM_A_Painter.dir/main.cpp.o: ../basic-graphics/CoordinateAxis.h
 CMakeFiles/I_AM_A_Painter.dir/main.cpp.o: ../basic-graphics/QuadraticCruve.h
 CMakeFiles/I_AM_A_Painter.dir/main.cpp.o: ../basic-graphics/StraightLine.h
+CMakeFiles/I_AM_A_Painter.dir/main.cpp.o: ../fractal-graphics/Koch.h
 CMakeFiles/I_AM_A_Painter.dir/main.cpp.o: ../fractal-graphics/Pentagram.h
 CMakeFiles/I_AM_A_Painter.dir/main.cpp.o: ../fractal-graphics/Turtle.hpp
 CMakeFiles/I_AM_A_Painter.dir/main.cpp.o: ../include/color.h

@@ -11,6 +11,7 @@
 #include "basic-graphics/QuadraticCruve.h"
 #include "fractal-graphics/Turtle.hpp"
 #include "fractal-graphics/Pentagram.h"
+#include "fractal-graphics/Koch.h"
 
 const int screenWidth = 800;
 const int screenHeight = 600;
@@ -21,7 +22,9 @@ int main() {
 
     Turtle turtle = Turtle(device);
 
-    Pentagram::Draw(turtle);
+//    Pentagram::Draw(turtle);
+
+    Koch::Draw(turtle);
 
     device->updateRender();
     device->show();
