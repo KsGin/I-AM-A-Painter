@@ -70,8 +70,8 @@ public:
         for (int i = 0; i <= distance; ++i) {
             fx = static_cast<int>(this->cx + cos(radians) * i + 0.5);
             fy = static_cast<int>(this->cy + sin(radians) * i + 0.5);
-            this->device->clamp(fx, fy);
-            this->device->setPixelColor(fx, fy, Color::white());
+            if (this->device->judge(fx, fy))
+                this->device->setPixelColor(fx, fy, Color::white());
         }
         this->Goto(fx , fy);
     }
@@ -86,8 +86,8 @@ public:
         for (int i = 0; i <= distance; ++i) {
             fx = static_cast<int>(this->cx - cos(radians) * i + 0.5);
             fy = static_cast<int>(this->cy - sin(radians) * i + 0.5);
-            this->device->clamp(fx, fy);
-            this->device->setPixelColor(fx, fy, Color::white());
+            if (this->device->judge(fx, fy))
+                this->device->setPixelColor(fx, fy, Color::white());
         }
         this->Goto(fx , fy);
     }

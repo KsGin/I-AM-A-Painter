@@ -12,6 +12,7 @@
 #include "include/Turtle.hpp"
 #include "fractal-graphics/Pentagram.h"
 #include "fractal-graphics/Koch.h"
+#include "fractal-graphics/Hilbert.h"
 
 const int screenWidth = 800;
 const int screenHeight = 600;
@@ -21,10 +22,14 @@ int main() {
     device->initialize(screenWidth, screenHeight, false);
 
     Turtle turtle = Turtle(device);
-
+//
 //    Pentagram::Draw(turtle);
+//
+//    Koch::Draw(turtle);
 
-    Koch::Draw(turtle);
+
+    Hilbert::Draw(turtle);
+
 
     device->updateRender();
     device->show();

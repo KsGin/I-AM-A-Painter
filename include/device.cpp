@@ -144,11 +144,6 @@ float Device::clamp(const float &value, const float &maxValue, const float &minV
     return ret < maxValue ? ret : maxValue;
 }
 
-void Device::clamp(int &x, int &y) {
-    x = static_cast<int>(clamp(x , width - 5 , 5));
-    y = static_cast<int>(clamp(y , height - 5 , 5));
-}
-
 Device::Device(const Device &device) {
     this->event = device.event;
     this->height = device.height;
@@ -176,6 +171,10 @@ Device &Device::operator=(const Device &device) {
     this->isQuit = device.isQuit;
     this->isScreenFull = device.isScreenFull;
     return *this;
+}
+
+bool Device::judge(const int &x, const int &y) {
+    return x > 0 && x < width && y > 0  && y < height;
 }
 
 

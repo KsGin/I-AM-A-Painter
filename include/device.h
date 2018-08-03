@@ -135,9 +135,9 @@ public:
     void handleEvent();
 
     /**
-     * 像素数值限制
+     * 检查像素是否在显示区域
      */
-    void clamp(int& x , int& y);
+    bool judge(const int& x , const int& y);
     /*
      * 数值限制
      */
