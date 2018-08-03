@@ -5,7 +5,7 @@
 #ifndef I_AM_A_PAINTER_PENTAGRAM_H
 #define I_AM_A_PAINTER_PENTAGRAM_H
 
-#include "Turtle.hpp"
+#include "../include/Turtle.hpp"
 
 /***
  * 使用 Turtle 绘制 五芒星

@@ -6,7 +6,7 @@
 #define I_AM_A_PAINTER_TURTLE_HPP
 
 #include <algorithm>
-#include "../include/device.h"
+#include "device.h"
 
 /**
  * 海龟程序
