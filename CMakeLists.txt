@@ -3,8 +3,21 @@ project(I_AM_A_Painter)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(I_AM_A_Painter include/color.cpp include/color.h include/device.cpp include/device.h
-        basic-graphics/StraightLine.h main.cpp basic-graphics/Circle.h basic-graphics/CoordinateAxis.h basic-graphics/QuadraticCruve.h fractal-graphics/Hilbert.h include/Turtle.hpp fractal-graphics/Pentagram.h fractal-graphics/Koch.h)
+add_executable(I_AM_A_Painter
+        include/color.cpp
+        include/color.h
+        include/device.cpp
+        include/device.h
+        basic-graphics/StraightLine.h
+        main.cpp
+        basic-graphics/Circle.h
+        basic-graphics/CoordinateAxis.h
+        basic-graphics/QuadraticCruve.h
+        fractal-graphics/Hilbert.h
+        include/Turtle.hpp
+        fractal-graphics/Pentagram.h
+        fractal-graphics/Koch.h
+        fractal-graphics/LevyC.h)
 
 INCLUDE(FindPkgConfig)
 PKG_SEARCH_MODULE(SDL2 REQUIRED sdl2)

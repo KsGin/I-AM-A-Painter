@@ -13,6 +13,7 @@
 #include "fractal-graphics/Pentagram.h"
 #include "fractal-graphics/Koch.h"
 #include "fractal-graphics/Hilbert.h"
+#include "fractal-graphics/LevyC.h"
 
 const int screenWidth = 800;
 const int screenHeight = 600;
@@ -26,10 +27,10 @@ int main() {
 //    Pentagram::Draw(turtle);
 //
 //    Koch::Draw(turtle);
-
-
-    Hilbert::Draw(turtle);
-
+//
+//
+//    Hilbert::Draw(turtle);
+    LevyC::Draw(turtle);
 
     device->updateRender();
     device->show();
