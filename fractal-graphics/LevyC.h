@@ -14,7 +14,7 @@
  *  Axiom : F
  *  Production rules:
  *      F -> +F--F+
- *      Here, "F" means "draw forward", "−" means "turn left 90°", "+" means "turn right 90°" and "A" and "B" are ignored during drawing.
+ *      Here, "F" means "draw forward", "−" means "turn left 45°", "+" means "turn right 45°"
  */
 
 class LevyC {
@@ -32,8 +32,8 @@ class LevyC {
     }
 public:
     static void Draw(Turtle &turtle) {
-        turtle.Goto(300 , 250);
-        helper(turtle , 3 , 11);
+        turtle.Goto(250 , 250);
+        helper(turtle , 1 , 15);
     }
 };
 
