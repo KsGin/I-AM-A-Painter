@@ -14,6 +14,7 @@
 #include "fractal-graphics/Koch.h"
 #include "fractal-graphics/Hilbert.h"
 #include "fractal-graphics/LevyC.h"
+#include "fractal-graphics/SierpinskiTriangle.h"
 
 const int screenWidth = 800;
 const int screenHeight = 600;
@@ -25,12 +26,10 @@ int main() {
     Turtle turtle = Turtle(device);
 //
 //    Pentagram::Draw(turtle);
-//
 //    Koch::Draw(turtle);
-//
-//
 //    Hilbert::Draw(turtle);
-    LevyC::Draw(turtle);
+//    LevyC::Draw(turtle);
+    SierpinskiTriangle::Draw(turtle);
 
     device->updateRender();
     device->show();
