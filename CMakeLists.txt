@@ -17,7 +17,7 @@ add_executable(I_AM_A_Painter
         include/Turtle.hpp
         fractal-graphics/Pentagram.h
         fractal-graphics/Koch.h
-        fractal-graphics/LevyC.h fractal-graphics/SierpinskiTriangle.h)
+        fractal-graphics/LevyC.h fractal-graphics/SierpinskiTriangle.h fractal-graphics/Dragon.h)
 
 INCLUDE(FindPkgConfig)
 PKG_SEARCH_MODULE(SDL2 REQUIRED sdl2)
