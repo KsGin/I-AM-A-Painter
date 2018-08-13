@@ -16,6 +16,7 @@
 #include "fractal-graphics/LevyC.h"
 #include "fractal-graphics/SierpinskiTriangle.h"
 #include "fractal-graphics/Dragon.h"
+#include "fractal-graphics/Tree.h"
 
 const int screenWidth = 800;
 const int screenHeight = 600;
@@ -31,8 +32,8 @@ int main() {
 //    Hilbert::Draw(turtle);
 //    LevyC::Draw(turtle);
 //    SierpinskiTriangle::Draw(turtle);
-    Dragon::Draw(turtle);
-
+//    Dragon::Draw(turtle);
+    Tree::Draw(turtle);
     device->updateRender();
     device->show();
 
