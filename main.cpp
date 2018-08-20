@@ -17,6 +17,7 @@
 #include "fractal-graphics/SierpinskiTriangle.h"
 #include "fractal-graphics/Dragon.h"
 #include "fractal-graphics/Tree.h"
+#include "fractal-graphics/StarTails.h"
 
 const int screenWidth = 800;
 const int screenHeight = 600;
@@ -33,7 +34,10 @@ int main() {
 //    LevyC::Draw(turtle);
 //    SierpinskiTriangle::Draw(turtle);
 //    Dragon::Draw(turtle);
-    Tree::Draw(turtle);
+//    Tree::Draw(turtle);
+    StarTails::Draw(turtle);
+
+
     device->updateRender();
     device->show();
 
